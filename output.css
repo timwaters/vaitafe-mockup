@@ -704,6 +704,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#056839\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 104 57 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0f74b2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 116 178 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -834,6 +844,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#b7d98c\] {
+  --tw-text-opacity: 1;
+  color: rgb(183 217 140 / var(--tw-text-opacity));
 }
 
 .underline {
