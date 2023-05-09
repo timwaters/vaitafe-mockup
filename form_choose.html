@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mockup: Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="flex items-center justify-between flex-wrap p-6" style="background-color: #056839;" >
+  
+    <div class="flex items-center shrink text-white mr-6  ">
+      <a href="index.html" class="flex items-center ">
+        <img class="   " height=100 width=100 src="citizen logo_no Tree_cropped200px.png" >
+        <span class="font-semibold text-xl tracking-tight">Citizen Science Vaisigano</span>
+      </a>
+    </div>
+  
+    <div class="block md:hidden">
+      <button id="burger-toggle" class="flex items-center px-3 py-2 border rounded text-[#b7d98c] border-lime-400 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      </button>
+    </div>
+  
+    <div id="nav-menu" class="w-full block flex-grow md:flex md:items-center md:w-auto hidden ">
+      <div class="text-sm md:flex-grow">
+        <a href="form_choose.html" class="block mt-4 md:inline-block md:mt-0 text-[#b7d98c] hover:text-white mr-4">
+          Start Collecting
+        </a>
+        <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-[#b7d98c] hover:text-white mr-4">
+          About & Help
+        </a>
+  
+      </div>
+      <div>
+        <a href="user.html" class=" inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 md:mt-0">Sign In | Register</a>
+      </div>
+    </div>
+  
+  </nav>
+
+<script>
+
+  document.getElementById('burger-toggle').onclick = function(){
+    document.getElementById("nav-menu").classList.toggle("hidden");
+  }
+</script>
+
+<main class="mt-5 px-3 py-3 ">
+
+
+
+<div class="max-w-md mx-auto ">
+  Choose either <a href="form.html" class="text-[#0f74b2]">Physical</a>, <a href="form.html" class="text-[#0f74b2]">Chemical</a> 
+  or <a href="form.html" class="text-[#0f74b2]">Biological</a>
+
+</div>
+
+  <div class="pt-3">
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl ">
+    <div class="md:flex">
+      <div class="md:shrink-0">
+        <a href="form.html">
+        <img class="h-36 w-full object-cover md:h-full md:w-36" src="stream.jpeg" alt="placeholder">
+        </a>
+      </div>
+      <div class="p-4">
+        <div class="uppercase tracking-wide text-sm text-bg-lime-950 font-semibold"><a href="form.html">Physical</a></div>
+        
+        <p class="mt-2 text-slate-500"> Choose this for collecting data about the physical characteristics of the waterway. <br />
+          e.g. water temperature, clarity, flow, pH, turbidity, conductivity
+       </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pt-3">
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl ">
+    <div class="md:flex">
+      <div class="md:shrink-0">
+        <a href="form.html">
+        <img class="h-36 w-full object-cover md:h-full md:w-36" src="kit.jpg" alt="placeholder">
+        </a>
+      </div>
+      <div class="p-4">
+        <div class="uppercase tracking-wide text-sm text-bg-lime-950 font-semibold"><a href="form.html">Chemical</a></div>
+        
+        <p class="mt-2 text-slate-500">
+          pH (Acidity) Nitrates, Phosphates, Total dissolved solids (TDS) <br />
+          Hardness: Use a hardness test kit to measure the hardness of the water.<br />
+          Chlorine: Use a chlorine test kit to measure the chlorine levels in the water.
+
+       </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="pt-3 pb-3">
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl  ">
+    <div class="md:flex">
+      <div class="md:shrink-0">
+        <a href="form.html">
+        <img class="h-36 w-full object-cover md:h-full md:w-36" src="mayfly.png" alt="placeholder">
+        </a>
+      </div>
+      <div class="p-4">
+        <div class="uppercase tracking-wide text-sm text-bg-lime-950 font-semibold">     <a href="form.html">Biological</a></div>
+        
+        <p class="mt-2 text-slate-500"> Water quality: Observe the water quality by looking for signs of pollution, such as oil, trash, or dead fish. <br />
+          Water organisms: Collect water samples and identify the organisms present.<br />
+          Water plants: Identify the water plants present.
+      
+       </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl px-6">
+    Tips:
+     <ul class="list-disc">
+       <li >
+         Be sure to collect data from the same location and time each time.
+       </li>
+       <li>
+         Collect data over a period of time to see how the water quality changes.
+       </li>
+       <li>
+         Be careful not to contaminate the water sample.
+       </li>
+       <li>
+         Be sure to clean and sanitize your equipment after each use.
+       </li>
+       <li>
+         Have fun!
+       </li>
+     </ul>
+   
+   </div>
+
+
+
+
+
+
+</main>
+
+<footer class="bg-[#0f74b2] p-3 ">
+  <div class="text-sm md:flex-grow  items-center text-white ">
+
+  <span class="mr-6">
+
+   2023 Citizen Science Vaisigano
+  </span>
+
+
+  <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-lime-200 hover:text-white mr-4">
+    Start Collecting
+  </a>
+  <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-lime-200 hover:text-white mr-4">
+    About
+  </a>
+  <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-lime-200 hover:text-white mr-4">
+    Data / Privacy
+  </a>
+  <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-lime-200 hover:text-white mr-4">
+    Contact
+  </a>
+
+  <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-lime-200 hover:text-white">
+    Blog
+  </a>
+
+</div>
+</footer>
+
+</body>
+</html>

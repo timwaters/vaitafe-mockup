@@ -583,10 +583,6 @@ video {
   display: none;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .h-3 {
   height: 0.75rem;
 }
@@ -619,10 +615,6 @@ video {
   max-width: 36rem;
 }
 
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
-
 .shrink {
   flex-shrink: 1;
 }
@@ -641,6 +633,10 @@ video {
 
 .border-collapse {
   border-collapse: collapse;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-col {
@@ -717,11 +713,6 @@ video {
   fill: currentColor;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -731,16 +722,16 @@ video {
   padding: 0.75rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-2 {
@@ -758,11 +749,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -773,13 +759,34 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.py-3 {
+.ps-2 {
+  -webkit-padding-start: 0.5rem;
+          padding-inline-start: 0.5rem;
+}
+
+.pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
   padding-bottom: 0.75rem;
 }
 
@@ -859,6 +866,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#0f74b2\] {
+  --tw-text-opacity: 1;
+  color: rgb(15 116 178 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -899,6 +911,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#0f74b2\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 116 178 / var(--tw-bg-opacity));
+}
+
 .hover\:text-teal-500:hover {
   --tw-text-opacity: 1;
   color: rgb(20 184 166 / var(--tw-text-opacity));
@@ -932,10 +949,6 @@ video {
 
   .md\:h-full {
     height: 100%;
-  }
-
-  .md\:w-24 {
-    width: 6rem;
   }
 
   .md\:w-36 {
