@@ -10,6 +10,9 @@
   max-height: fit-content;
 
 }
+.navbar-item {
+  flex-shrink: 1;
+}
 
 .navbar-burger {
   color: white;
@@ -44,3 +47,10 @@ table.mini th {
 .footer .copy {
   color: white;
 }
+
+
+@media screen and (max-width: 768px) {
+    .hero.is-medium .hero-body {
+        padding-bottom: 12rem;
+        padding-top: 12rem;
+    }
